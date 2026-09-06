@@ -5,6 +5,7 @@
 Android会向LocationManager写入自定义坐标，系统会将其视为一个正常的定位Provider输出，分发给所有请求定位的应用,因此实现定位
 
 #工作原理
+
 1-高德定位SDK → 获取GCJ-02坐标
 
 2-坐标系转换 → GCJ-02 转 WGS-84
